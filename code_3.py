@@ -19,7 +19,7 @@ print(detected_objects)
 
 # Optional: Unique objects only
 unique_objects = list(set(detected_objects))
-print("\nUnique detected objects (conf > 0.7):")
+print("\nUnique detected objects (conf > 0.2):")
 print(unique_objects)
 
 # Save the annotated image with bounding boxes and labels (only for detections above 0.7)
